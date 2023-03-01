@@ -7,6 +7,7 @@ Este arquivo é uma interface para o arquivo automata.py, que é o arquivo princ
 Requisitos:
 
 - Interpretador Python 3.10.6
+  
 Como executar:
 
 1. Baixe todos os arquivos do projeto em um diretório local.
