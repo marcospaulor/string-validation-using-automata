@@ -52,13 +52,11 @@ def readFromFile():
                         # write the word and result in the output file
                         with open('outputs/output_'+file_name, 'a') as f:
                             f.write(string + ' -> Accepted by automata ' + file_name + ' \n')
-                            f.write('----------------------------------------------------------------------------------------------------------------------------')
                             f.close()
                     else:
                         print('~ Not accepted: ' + string)
                         with open('outputs/output_'+file_name, 'a') as f:
                             f.write(string + ' -> Not accepted by automata ' + file_name + ' \n')
-                            f.write('----------------------------------------------------------------------------------------------------------------------------')
                             f.close()
                 f.close()
         else:

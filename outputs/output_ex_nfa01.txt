@@ -10,16 +10,7 @@
 1000011 -> Not accepted by automata ex_nfa01.txt 
 10100011&10101&01010&101 -> Not accepted by automata ex_nfa01.txt 
 1000001111 -> Not accepted by automata ex_nfa01.txt 
-0 -> Not accepted by automata ex_nfa01.txt 
- 101 -> Accepted by automata ex_nfa01.txt 
- 001 -> Accepted by automata ex_nfa01.txt 
- 10101010101 -> Accepted by automata ex_nfa01.txt 
- 010001001 -> Accepted by automata ex_nfa01.txt 
- 010101 -> Accepted by automata ex_nfa01.txt 
- 101010100101011111 -> Not accepted by automata ex_nfa01.txt 
- 10101011 -> Not accepted by automata ex_nfa01.txt 
- 101010000100101010 -> Not accepted by automata ex_nfa01.txt 
- 1000011 -> Not accepted by automata ex_nfa01.txt 
- 10100011&10101&01010&101 -> Not accepted by automata ex_nfa01.txt 
- 1000001111 -> Not accepted by automata ex_nfa01.txt 
- 
+aabb -> Not accepted by automata ex_nfa01.txt 
+&&abb -> Not accepted by automata ex_nfa01.txt 
+&&b&&&a&&abb -> Not accepted by automata ex_nfa01.txt 
+&&babababbababaaabb -> Not accepted by automata ex_nfa01.txt 

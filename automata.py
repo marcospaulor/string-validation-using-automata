@@ -5,7 +5,6 @@ class Automata:
         self.transitions = {}
         self.initial_state = None
         self.final_states = []
-        self.visited = []
         self.read_file(file)
 
     def read_file(self, file):
@@ -62,38 +61,3 @@ class Automata:
 
     def __str__(self):
         return "Transições: "+str(self.transitions)+"\nEstados: "+str(self.states)+"\nAlfabeto: "+str(self.alphabet)+"\nIncial: "+str(self.initial_state)+"\nFinal: "+str(self.final_states)
-        
-
-
-# if __name__ == '__main__':
-#     # automata = Automata('inputs/ex_dfa01.txt')
-#     # print(automata)
-#     # # print('-----------------')
-#     # print("String: "+str(automata.run('1001'))) # True
-#     # print("String: "+str(automata.run('100'))) # False
-#     # print("String: "+str(automata.run('101010100101011111'))) # True
-
-#     automata = Automata('inputs/ex_epsilon_nfa.txt')
-#     print(automata)
-#     print('-----------------')
-#     print("String: "+str(automata.run('&&a&&abb'))) # True
-#     print("String: "+str(automata.run('aabb'))) # True
-#     print("String: "+str(automata.run('&&abb'))) # False
-#     print("String: "+str(automata.run('&&ababababbababaaabb'))) # True
-#     print("String: "+str(automata.run('&&babababbababaaabb'))) # True
-#     print("String: "+str(automata.run('&&b&&&a&&abb'))) # True
-#     print('-----------------')
-
-#     # automata = Automata('inputs/ex_nfa01.txt')
-#     # print("Transições: "+str(automata.transitions))
-#     # print("Estados: "+str(automata.states))
-#     # print("Alfabeto: "+str(automata.alphabet))
-#     # print("Incial: "+str(automata.initial_state))
-#     # print("Final: "+str(automata.final_states))
-#     # automata.printTransitions()
-#     # print('-----------------')
-#     # print("String: "+str(automata.run('1001'))) # True
-#     # print("String: "+str(automata.run('100'))) # False
-#     # print("String: "+str(automata.run('101010100101011111'))) # True
-#     # print("String: "+str(automata.run('1010101001010111111'))) # False
-
