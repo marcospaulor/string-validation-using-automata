@@ -2,6 +2,9 @@
 
 ## README - Autômato validador de palavras
 
+(GitHub)[https://github.com/marcospaulor/string-validation-using-automata]
+(Youtube)[https://youtu.be/bRWC1DAN5I8]
+
 Este arquivo é uma interface para o arquivo automata.py, que é o arquivo principal do projeto. O arquivo automata.py é responsável por ler o arquivo e criar o autômato, e o arquivo main.py é responsável por ler a entrada e chamar o autômato para verificar se a palavra é aceita ou não.
 
 Requisitos:
